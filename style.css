@@ -1,0 +1,20 @@
+body{
+    background-image: url("https://bjsfsmx-0544.github.io/PROC114-V2-actividad-alumno1/background.jpg");
+
+}
+h3{
+    font-size: 25px !important;
+}
+.btn-success:hover{
+    background-color: blue;
+}
+@keyframes ejemplo{
+    from{box-shadow: 5px 5px 38px rgb(98, 207, 98);}
+    to{box-shadow: 5px 5px 38px rgb(91, 14, 207);}
+}
+canvas{
+    animation-name:ejemplo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
